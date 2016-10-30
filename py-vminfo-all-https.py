@@ -220,8 +220,7 @@ def GetProperties(content, viewType, props, specType):
 
 def main():
     args = GetArgs()
-    vmnames = "'"+args.vm+"'"
-    print (vmnames)
+    vmnames = args.vm
     si = None
     if args.password:
             password = args.password
